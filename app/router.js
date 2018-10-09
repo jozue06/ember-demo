@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('aboot');
+  this.route('contax');
+  this.route('rentals', function() {});
 });
 
 export default Router;
